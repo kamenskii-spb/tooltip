@@ -1,0 +1,26 @@
+{
+  "name": "@kamenskii/tooltip",
+  "library": "tooltip",
+  "version": "4.0.0",
+  "description": "tooltip js",
+  "homepage": "https://tooltipsjs.web.app/",
+  "main": "./dist/umd/tooltip.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "Kamenskii <kamenskii_dm@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
